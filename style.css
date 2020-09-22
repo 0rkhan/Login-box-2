@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+}
+
+h1{
+ color: orange;
+ text-align: center;
+ letter-spacing: 5px;
+ font-size: 100px;
+ position: relative;
+ font-family: 'Pacifico', cursive;
+}
+
+body{
+    background: url(./Photos/background.jpg);
+    background-size: cover;
+}
+
+.loginbox{
+    box-sizing: border-box;
+    width: 400px;
+    padding: 30px;
+    height: 550px;
+    position: absolute;
+    top: 50%;
+    left: 24%;
+    transform: translate(-50% ,-50%);
+    border: 5px;
+    border-radius: 30px;
+    border-color: yellow;
+    border-style: solid;
+    
+}
+.inner{
+    background: orange ;
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.input{
+    position: relative;
+    bottom: 60%;    
+    padding:5px;
+    left: 2%;
+    margin: 20px;
+}
+
+.input input:hover{
+
+   
+    -webkit-box-shadow: 5px 3px 40px 10px rgba(94,255,0,1);
+-moz-box-shadow: 5px 3px 40px 10px rgba(94,255,0,1);
+box-shadow: 5px 3px 40px 10px rgba(94,255,0,1);
+}
+
+.input input{
+
+    transition-duration: 0.5s;
+    position: relative;
+    width: 95%;
+    height: 30px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: 'Indie Flower', cursive;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor:text;
+    
+
+}
+
+.input input:hover{
+    background-color: rgba(94,255,0,1);
+}
+
+.input label{
+    font-family: 'Indie Flower', cursive;
+    background: transparent ;
+    font-size: 20px;
+}
+
+
+
+.icon{
+    color: black;
+    position: absolute;
+    top: 17%;
+    left: 40%;
+    font-size: 100px;
+
+    
+}
+.button button{
+font-family: 'Indie Flower', cursive;
+    position: relative;
+    font-size: 20px;
+    color: black;
+    bottom: 275px;
+    left: 37%;
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.5s;
+    border-radius: 10px;
+
+}
+ .button button:hover{
+      -webkit-box-shadow: 5px 3px 40px 10px rgba(94,255,0,1);
+-moz-box-shadow: 5px 3px 40px 10px rgba(94,255,0,1);
+box-shadow: 5px 3px 40px 10px rgba(94,255,0,1);
+background: rgba(94,255,0,1) ;
+ }
